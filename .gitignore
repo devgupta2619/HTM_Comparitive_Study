@@ -1,0 +1,58 @@
+.venv/
+.vscode/
+.metadata
+.idea
+*.manifest
+*.cache
+*~
+*.DS_Store
+*.swp
+*.pyc
+*.pkl
+__pycache__
+
+# Coverage files 
+.coverage
+htmlcov/
+
+# IDE Visual Studio files
+.vs
+
+# IDE VSCode project files
+/nbproject/
+.vscode
+.ycm_extra_conf.py
+
+# KDevelop
+.kdev4
+nupic.core.kdev4
+htm.core.kdev4
+
+# Eclipse project files
+.cproject
+.project
+.settings/language.settings.xml
+
+# Build files
+build/
+dist/
+junit-test-results.xml
+.pytest_cache
+
+# Test Output files
+bindings/py/tests/*.stream
+TestOutputDir/*
+RDSE_testPickle
+
+# /
+/.gdb_history
+
+# Doxygen generated doc
+html/
+
+# produced by swarming, parameter optimization scripts
+*_ae/
+
+## Experiments. Files produced by experiments
+/py/htm/advanced/examples/thalamus/images/
+
